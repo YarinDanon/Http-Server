@@ -6,12 +6,12 @@ with the client every time the server need thread it take one from the pool or e
 
 pool
 
-usage
+# usage
 
 ./server <port> <pool-size> <max-number-of-request>
 
-port is the port number the server will listen on
+- port is the port number the server will listen on
 
-pool size is the number of threads in the pool
+- pool size is the number of threads in the pool
 
-number of request is the maximum number of request the server will handle before it destroys the pool
+- number of request is the maximum number of request the server will handle before it destroys the pool
