@@ -8,7 +8,7 @@ pool
 
 # usage
 
-./server <port> <pool-size> <max-number-of-request>
+./server < port > < pool-size > < max-number-of-request >
 
 - port is the port number the server will listen on
 
